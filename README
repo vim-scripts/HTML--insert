@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=565
+
+Script add command :IMG and :HREF for easy inserting xhtml elements IMG and ANCHOR.
+
+Without parameter call file browser dialog for select file.
+
+If Vim is not support browse() function (non GUI Vim), you must insert path manualy.
+
+:IMG command call identify (from ImageMagic) for detect geometry of image. 
