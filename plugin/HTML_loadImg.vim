@@ -12,7 +12,7 @@
 
 function HTML_loadImg(...)
   if(a:0>0)
-    let path=1
+    let path=a:1
   else  
     if(has("browse"))
       let path=browse('', 'Vyber obrazek pro <img>', '.', '')
